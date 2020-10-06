@@ -1,1 +1,6 @@
 include: package:effective_dart/analysis_options.1.2.0.yaml
+
+linter:
+  rules:
+    prefer_typing_uninitialized_variables: true
+    public_member_api_docs: false
